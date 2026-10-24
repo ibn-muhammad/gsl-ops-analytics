@@ -13,4 +13,4 @@ SELECT COUNT(*) FROM orders;
 SELECT COUNT(DISTINCT order_id) FROM order_items;
 -- Result: 3424
 
--- Takeaway: the intern's card overcounted by 6,233 orders (about 35x too high), because it counted receipt lines, not orders.
+-- Takeaway: the intern's card overcounted by 6,233 orders (about 2.8x too high), because it counted receipt lines, not orders.
